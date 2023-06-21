@@ -1,0 +1,16 @@
+D:\ToDoList\TodoList\DALToDoLIst\bin\Debug\net6.0\appsettings.Development.json
+D:\ToDoList\TodoList\DALToDoLIst\bin\Debug\net6.0\appsettings.json
+D:\ToDoList\TodoList\DALToDoLIst\bin\Debug\net6.0\DALToDoLIst.deps.json
+D:\ToDoList\TodoList\DALToDoLIst\bin\Debug\net6.0\DALToDoLIst.runtimeconfig.json
+D:\ToDoList\TodoList\DALToDoLIst\bin\Debug\net6.0\DALToDoLIst.dll
+D:\ToDoList\TodoList\DALToDoLIst\bin\Debug\net6.0\DALToDoLIst.pdb
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.csproj.AssemblyReference.cache
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.GeneratedMSBuildEditorConfig.editorconfig
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.AssemblyInfoInputs.cache
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.AssemblyInfo.cs
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.csproj.CoreCompileInputs.cache
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.dll
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\refint\DALToDoLIst.dll
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.pdb
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\DALToDoLIst.genruntimeconfig.cache
+D:\ToDoList\TodoList\DALToDoLIst\obj\Debug\net6.0\ref\DALToDoLIst.dll

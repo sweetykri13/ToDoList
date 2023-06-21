@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="image-container">
+    <img class="image-container" src="../../assets/tasks.jpg" alt="Image" />
+  </div>
+  <div class="content-container" style="margin-left: 50px; margin-top: 60px; font-size: 25px; text-align: center; margin-right: 50px;">
+    <h1>Task</h1>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <input type="text" [(ngModel)]="description" style="font-size: 34px;background-color:lightgoldenrodyellow; border-radius: 10px; margin-right: 9px;" />
+      <button *ngIf="!editId" (click)="submit()" style="width: 80px; height: 38px; border-radius: 10px; background-color: black; color: white;">Add</button>
+      <button *ngIf="editId" (click)="updateToDoList()" style="width: 60px; height: 35px; border-radius:10px; background-color: black; color: white;margin-right:8px;">Update</button>
+      <button *ngIf="editId" (click)="cancelUpdate()" style="width: 60px; height: 35px; border-radius:10px; background-color: black; color: white;">Cancel</button>
+    </div>
+    <div style="display: flex; gap: 45px; height: 310px;overflow-y: scroll; margin-top:40px; ">
+      <div style="margin-left:50px;">
+        <div *ngFor="let todo of home">
+          <div style="margin-right: 30px; background-color:lightgoldenrodyellow; border-radius:5px; display: flex;margin-bottom:10px; justify-content: space-between; align-items: center;">
+            <div class="description-container" [class.empty]="todo.description.trim() === ''">{{ todo.description || 'No Task' }}</div>
+            <div style="margin-left: 20px; display:flex;margin-right: 5px;">
+              <button (click)="startEditing(todo)" style="width:60px; height: 30px; border-radius:8px; background-color: black; color: white;margin-right:10px;">Edit</button>
+              <button (click)="deleteToDoList(todo.id)" style="width:65px; height: 30px; border-radius:8px;background-color: black; color: white;">Delete</button>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="home.length === 0" style="">
+          <div style="font-size:50px;margin-left:45px;">No Task Added</div>
+          <div style="font-size: 90px;">😞</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
